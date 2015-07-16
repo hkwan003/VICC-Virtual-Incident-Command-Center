@@ -38,6 +38,7 @@ public class LoginActivity extends Activity {
             startActivity(intent);
         }
 
+        
         setContentView(R.layout.activity_login);
 
         loginButton = (Button) findViewById(R.id.loginButton);
