@@ -90,8 +90,7 @@ public class MessagingActivity extends Activity {
 
     private void sendMessage() {
         messageBody = messageBodyField.getText().toString();
-        if (messageBody.isEmpty())
-        {
+        if (messageBody.isEmpty()) {
             Toast.makeText(this, "Please enter a message", Toast.LENGTH_LONG).show();
             return;
         }
@@ -120,17 +119,15 @@ public class MessagingActivity extends Activity {
         }
     }
 
-    private class MyMessageClientListener implements MessageClientListener
-    {
+    private class MyMessageClientListener implements MessageClientListener {
         @Override
-        public void onMessageFailed(MessageClient client, Message message,MessageFailureInfo failureInfo)
-        {
+        public void onMessageFailed(MessageClient client, Message message,
+                                    MessageFailureInfo failureInfo) {
             Toast.makeText(MessagingActivity.this, "Message failed to send.", Toast.LENGTH_LONG).show();
         }
 
         @Override
-        public void onIncomingMessage(MessageClient client, Message message)
-        {
+        public void onIncomingMessage(MessageClient client, Message message) {
             if (message.getSenderId().equals(recipientId)) {
                 WritableMessage writableMessage = new WritableMessage(message.getRecipientIds().get(0), message.getTextBody());
                 messageAdapter.addMessage(writableMessage, MessageAdapter.DIRECTION_INCOMING);

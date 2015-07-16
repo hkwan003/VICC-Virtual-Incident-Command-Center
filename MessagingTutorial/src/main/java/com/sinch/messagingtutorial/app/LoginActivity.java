@@ -1,6 +1,7 @@
 package com.sinch.messagingtutorial.app;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -77,23 +78,36 @@ public class LoginActivity extends Activity
                 username = usernameField.getText().toString();
                 password = passwordField.getText().toString();
 
-                ParseUser user = new ParseUser();
-                user.setUsername(username);
-                user.setPassword(password);
+                if(username.isEmpty() || password.isEmpty())
+                {
+                    //Toast.makeText(getApplicationContext(), "empty spaces homes", Toast.LENGTH_LONG).show();
+                    AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
+                    builder.setMessage(R.string.signup_error_message)
+                            .setTitle(R.string.signup_error_title)
+                            .setPositiveButton(android.R.string.ok, null);
+                    AlertDialog dialog = builder.create();
+                    dialog.show();
+                }
+                else {
+                    ParseUser user = new ParseUser();
+                    user.setUsername(username);
+                    user.setPassword(password);
 
-                user.signUpInBackground(new SignUpCallback() {
-                    public void done(com.parse.ParseException e) {
-                        if (e == null)
-                        {
-                            startService(serviceIntent);
-                            startActivity(intent);
-                        } else {
-                            Toast.makeText(getApplicationContext(),
-                                "There was an error signing up."
-                                    , Toast.LENGTH_LONG).show();
+                    user.signUpInBackground(new SignUpCallback() {
+                        public void done(ParseException e) {
+                            if (e == null) {
+                                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                startService(serviceIntent);
+                                startActivity(intent);
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "There was an error signing up."
+                                        , Toast.LENGTH_LONG).show();
+                            }
                         }
-                    }
-                });
+                    });
+                }
             }
         });
     }

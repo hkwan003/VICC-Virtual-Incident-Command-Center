@@ -68,10 +68,10 @@ public class MessageService extends Service implements SinchClientListener {
     }
 
     @Override
-    public void onClientStarted(SinchClient client) {
-        broadcastIntent.putExtra("success", true);
-        broadcaster.sendBroadcast(broadcastIntent);
-
+    public void onClientStarted(SinchClient client)
+    {
+//        broadcastIntent.putExtra("success", true);
+//        broadcaster.sendBroadcast(broadcastIntent);
         client.startListeningOnActiveConnection();
         messageClient = client.getMessageClient();
     }
