@@ -2,20 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/libs/sinch-android-rtc-3.3.5.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="1f310eca4ddd9acbaf12173e21e557af402703fd">
-        <dex dex="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/pre-dexed/debug/sinch-android-rtc-3.3.5-b5bba18e7bcad687eb65df124fab63d41c3725d6.jar" />
-    </item>
-    <item
-        jar="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/libs/Parse-1.6.0.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="2a812174191af5a4513a873602a765b0171f252c">
-        <dex dex="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/pre-dexed/debug/Parse-1.6.0-58e3e8b4f4e6aa4f34beafb29b667c95a1e97222.jar" />
-    </item>
-    <item
         jar="/Users/calvinkwan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"
         revision="19.1.0"
@@ -23,11 +9,25 @@
         <dex dex="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/pre-dexed/debug/support-v4-19.1.0-eff57a6da4e12fe58e4e296cf60d5246b54eec70.jar" />
     </item>
     <item
+        jar="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/libs/sinch-android-rtc-3.3.5.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1f310eca4ddd9acbaf12173e21e557af402703fd">
+        <dex dex="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/pre-dexed/debug/sinch-android-rtc-3.3.5-b5bba18e7bcad687eb65df124fab63d41c3725d6.jar" />
+    </item>
+    <item
         jar="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
         <dex dex="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/pre-dexed/debug/classes-38656c48b8ae2adb41eb1528a6448734bd3d1f97.jar" />
+    </item>
+    <item
+        jar="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/libs/Parse-1.6.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2a812174191af5a4513a873602a765b0171f252c">
+        <dex dex="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/pre-dexed/debug/Parse-1.6.0-58e3e8b4f4e6aa4f34beafb29b667c95a1e97222.jar" />
     </item>
 
 </items>

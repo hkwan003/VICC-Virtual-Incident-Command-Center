@@ -53,7 +53,8 @@ public class ListUsersActivity extends Activity {
     }
 
     //display clickable a list of all users
-    private void setConversationsList() {
+    private void setConversationsList()
+    {
         currentUserId = ParseUser.getCurrentUser().getObjectId();
         names = new ArrayList<String>();
 

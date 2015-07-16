@@ -14,7 +14,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class LoginActivity extends Activity {
+public class LoginActivity extends Activity
+{
 
     private Button signUpButton;
     private Button loginButton;
@@ -38,7 +39,7 @@ public class LoginActivity extends Activity {
             startActivity(intent);
         }
 
-        
+
         setContentView(R.layout.activity_login);
 
         loginButton = (Button) findViewById(R.id.loginButton);
@@ -67,9 +68,11 @@ public class LoginActivity extends Activity {
             }
         });
 
-        signUpButton.setOnClickListener(new View.OnClickListener() {
+        signUpButton.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view)
+            {
 
                 username = usernameField.getText().toString();
                 password = passwordField.getText().toString();
@@ -80,7 +83,8 @@ public class LoginActivity extends Activity {
 
                 user.signUpInBackground(new SignUpCallback() {
                     public void done(com.parse.ParseException e) {
-                        if (e == null) {
+                        if (e == null)
+                        {
                             startService(serviceIntent);
                             startActivity(intent);
                         } else {
