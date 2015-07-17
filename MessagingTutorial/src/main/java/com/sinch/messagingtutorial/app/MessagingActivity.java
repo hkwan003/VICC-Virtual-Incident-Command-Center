@@ -26,7 +26,8 @@ import com.sinch.android.rtc.messaging.WritableMessage;
 import java.util.Arrays;
 import java.util.List;
 
-public class MessagingActivity extends Activity {
+public class MessagingActivity extends Activity
+{
 
     private String recipientId;
     private EditText messageBodyField;

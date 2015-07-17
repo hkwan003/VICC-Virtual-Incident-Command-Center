@@ -48,6 +48,16 @@ public class LoginActivity extends Activity
         usernameField = (EditText) findViewById(R.id.loginUsername);
         passwordField = (EditText) findViewById(R.id.loginPassword);
 
+        signUpButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                Intent myIntent = new Intent(LoginActivity.this, SignUpActivity.class);
+                startActivity(myIntent);
+            }
+        });
+
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -66,48 +76,6 @@ public class LoginActivity extends Activity
                         }
                     }
                 });
-            }
-        });
-
-        signUpButton.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-
-                username = usernameField.getText().toString();
-                password = passwordField.getText().toString();
-
-                if(username.isEmpty() || password.isEmpty())
-                {
-                    //Toast.makeText(getApplicationContext(), "empty spaces homes", Toast.LENGTH_LONG).show();
-                    AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
-                    builder.setMessage(R.string.signup_error_message)
-                            .setTitle(R.string.signup_error_title)
-                            .setPositiveButton(android.R.string.ok, null);
-                    AlertDialog dialog = builder.create();
-                    dialog.show();
-                }
-                else {
-                    ParseUser user = new ParseUser();
-                    user.setUsername(username);
-                    user.setPassword(password);
-
-                    user.signUpInBackground(new SignUpCallback() {
-                        public void done(ParseException e) {
-                            if (e == null) {
-                                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                                startService(serviceIntent);
-                                startActivity(intent);
-                            } else {
-                                Toast.makeText(getApplicationContext(),
-                                        "There was an error signing up."
-                                        , Toast.LENGTH_LONG).show();
-                            }
-                        }
-                    });
-                }
             }
         });
     }
