@@ -21,6 +21,7 @@ public class SignUpActivity extends AppCompatActivity
     protected EditText mEmail;
     protected Button mSignUpButton;
 
+    
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
