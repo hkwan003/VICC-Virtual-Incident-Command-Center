@@ -137,7 +137,6 @@ public class MessagingActivity extends Activity
             if (message.getSenderId().equals(recipientId)) {
                 WritableMessage writableMessage = new WritableMessage(message.getRecipientIds().get(0), message.getTextBody());
                 messageAdapter.addMessage(writableMessage, MessageAdapter.DIRECTION_INCOMING);
-                populateMessageHistory();
             }
         }
 
@@ -166,7 +165,6 @@ public class MessagingActivity extends Activity
                     }
                 }
             });
-            populateMessageHistory();
         }
 
         @Override

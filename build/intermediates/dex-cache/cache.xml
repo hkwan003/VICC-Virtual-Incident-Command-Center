@@ -2,20 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/pre-dexed/debug/classes-b348b5fcbd2eccd3f89863100c86683d576962ce.jar" />
-    </item>
-    <item
-        jar="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/libs/sinch-android-rtc-3.3.5.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="1f310eca4ddd9acbaf12173e21e557af402703fd">
-        <dex dex="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/pre-dexed/debug/sinch-android-rtc-3.3.5-b5bba18e7bcad687eb65df124fab63d41c3725d6.jar" />
-    </item>
-    <item
         jar="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/libs/Parse-1.6.0.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
@@ -23,11 +9,25 @@
         <dex dex="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/pre-dexed/debug/Parse-1.6.0-58e3e8b4f4e6aa4f34beafb29b667c95a1e97222.jar" />
     </item>
     <item
+        jar="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/pre-dexed/debug/classes-b348b5fcbd2eccd3f89863100c86683d576962ce.jar" />
+    </item>
+    <item
         jar="/Users/calvinkwan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
         <dex dex="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-0f260c333a869fdc13a48553554d7f3223f344e2.jar" />
+    </item>
+    <item
+        jar="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/libs/sinch-android-rtc-3.3.5.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1f310eca4ddd9acbaf12173e21e557af402703fd">
+        <dex dex="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/pre-dexed/debug/sinch-android-rtc-3.3.5-b5bba18e7bcad687eb65df124fab63d41c3725d6.jar" />
     </item>
     <item
         jar="/Volumes/64G_Sandisk/android-messaging-tutorial/MessagingTutorial/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
