@@ -40,7 +40,8 @@ public class MessagingActivity extends Activity
     private MessageClientListener messageClientListener = new MyMessageClientListener();
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.messaging);
 
@@ -66,7 +67,8 @@ public class MessagingActivity extends Activity
     }
 
     //get previous messages from parse & display
-    private void populateMessageHistory() {
+    private void populateMessageHistory()
+    {
         String[] userIds = {currentUserId, recipientId};
         ParseQuery<ParseObject> query = ParseQuery.getQuery("ParseMessage");
         query.whereContainedIn("senderId", Arrays.asList(userIds));
@@ -89,7 +91,8 @@ public class MessagingActivity extends Activity
         });
     }
 
-    private void sendMessage() {
+    private void sendMessage()
+    {
         messageBody = messageBodyField.getText().toString();
         if (messageBody.isEmpty()) {
             Toast.makeText(this, "Please enter a message", Toast.LENGTH_LONG).show();
@@ -101,13 +104,15 @@ public class MessagingActivity extends Activity
     }
 
     @Override
-    public void onDestroy() {
+    public void onDestroy()
+    {
         messageService.removeMessageClientListener(messageClientListener);
         unbindService(serviceConnection);
         super.onDestroy();
     }
 
-    private class MyServiceConnection implements ServiceConnection {
+    private class MyServiceConnection implements ServiceConnection
+    {
         @Override
         public void onServiceConnected(ComponentName componentName, IBinder iBinder) {
             messageService = (MessageService.MessageServiceInterface) iBinder;
@@ -132,6 +137,7 @@ public class MessagingActivity extends Activity
             if (message.getSenderId().equals(recipientId)) {
                 WritableMessage writableMessage = new WritableMessage(message.getRecipientIds().get(0), message.getTextBody());
                 messageAdapter.addMessage(writableMessage, MessageAdapter.DIRECTION_INCOMING);
+                populateMessageHistory();
             }
         }
 
@@ -160,10 +166,14 @@ public class MessagingActivity extends Activity
                     }
                 }
             });
+            populateMessageHistory();
         }
 
         @Override
-        public void onMessageDelivered(MessageClient client, MessageDeliveryInfo deliveryInfo) {}
+        public void onMessageDelivered(MessageClient client, MessageDeliveryInfo deliveryInfo)
+        {
+            Toast.makeText(MessagingActivity.this, "Message delivered.", Toast.LENGTH_LONG).show();
+        }
 
         @Override
         public void onShouldSendPushData(MessageClient client, Message message, List<PushPair> pushPairs) {}
