@@ -132,7 +132,8 @@ public class MessageService extends Service implements SinchClientListener {
             MessageService.this.removeMessageClientListener(listener);
         }
 
-        public boolean isSinchClientStarted() {
+        public boolean isSinchClientStarted()
+        {
             return MessageService.this.isSinchClientStarted();
         }
     }

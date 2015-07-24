@@ -6,9 +6,13 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.net.Uri;
 import android.os.Bundle;
+import android.app.Fragment;
 import android.support.v4.content.LocalBroadcastManager;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -16,15 +20,23 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.parse.FindCallback;
-import com.parse.ParseException;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListUsersActivity extends Activity {
 
+/**
+ * A simple {@link Fragment} subclass.
+ * Activities that contain this fragment must implement the
+ * {@link ListUsersFragment.OnFragmentInteractionListener} interface
+ * to handle interaction events.
+ * Use the {@link ListUsersFragment#newInstance} factory method to
+ * create an instance of this fragment.
+ */
+public class ListUsersFragment extends android.support.v4.app.ListFragment
+{
     private String currentUserId;
     private ArrayAdapter<String> namesArrayAdapter;
     private ArrayList<String> names;
@@ -34,7 +46,8 @@ public class ListUsersActivity extends Activity {
     private BroadcastReceiver receiver = null;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_users);
 
@@ -68,8 +81,8 @@ public class ListUsersActivity extends Activity {
 
                     usersListView = (ListView)findViewById(R.id.usersListView);
                     namesArrayAdapter =
-                        new ArrayAdapter<String>(getApplicationContext(),
-                            R.layout.user_list_item, names);
+                            new ArrayAdapter<String>(getApplicationContext(),
+                                    R.layout.user_list_item, names);
                     usersListView.setAdapter(namesArrayAdapter);
 
                     usersListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -81,7 +94,7 @@ public class ListUsersActivity extends Activity {
 
                 } else {
                     Toast.makeText(getApplicationContext(),
-                        "Error loading user list",
+                            "Error loading user list",
                             Toast.LENGTH_LONG).show();
                 }
             }
@@ -93,17 +106,17 @@ public class ListUsersActivity extends Activity {
         ParseQuery<ParseUser> query = ParseUser.getQuery();
         query.whereEqualTo("username", names.get(pos));
         query.findInBackground(new FindCallback<ParseUser>() {
-           public void done(List<ParseUser> user, com.parse.ParseException e) {
-               if (e == null) {
-                   Intent intent = new Intent(getApplicationContext(), MessagingActivity.class);
-                   intent.putExtra("RECIPIENT_ID", user.get(0).getObjectId());
-                   startActivity(intent);
-               } else {
-                   Toast.makeText(getApplicationContext(),
-                       "Error finding that user",
-                           Toast.LENGTH_SHORT).show();
-               }
-           }
+            public void done(List<ParseUser> user, com.parse.ParseException e) {
+                if (e == null) {
+                    Intent intent = new Intent(getApplicationContext(), MessagingActivity.class);
+                    intent.putExtra("RECIPIENT_ID", user.get(0).getObjectId());
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(getApplicationContext(),
+                            "Error finding that user",
+                            Toast.LENGTH_SHORT).show();
+                }
+            }
         });
     }
 
@@ -133,6 +146,5 @@ public class ListUsersActivity extends Activity {
         setConversationsList();
         super.onResume();
     }
+
 }
-
-
