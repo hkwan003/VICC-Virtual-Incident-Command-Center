@@ -31,7 +31,7 @@ class SectionsPagerAdapter extends FragmentPagerAdapter
         }
         if(position == 2)
         {
-            fragment = new ();
+            fragment = new ListUsersActivity();
         }
         return fragment;
     }

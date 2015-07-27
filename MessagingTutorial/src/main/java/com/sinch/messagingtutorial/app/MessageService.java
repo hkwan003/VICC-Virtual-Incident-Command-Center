@@ -16,8 +16,8 @@ import com.sinch.android.rtc.messaging.MessageClient;
 import com.sinch.android.rtc.messaging.MessageClientListener;
 import com.sinch.android.rtc.messaging.WritableMessage;
 
-public class MessageService extends Service implements SinchClientListener {
-
+public class MessageService extends Service implements SinchClientListener
+{
     private static final String APP_KEY = "20cdafd6-9442-4990-b5c8-0b035b66c3a6";
     private static final String APP_SECRET = "LhMXj/ObCEqULU3DfqABWw==";
     private static final String ENVIRONMENT = "sandbox.sinch.com";
@@ -29,11 +29,13 @@ public class MessageService extends Service implements SinchClientListener {
     private Intent broadcastIntent = new Intent("com.sinch.messagingtutorial.app.ListUsersActivity");
 
     @Override
-    public int onStartCommand(Intent intent, int flags, int startId) {
+    public int onStartCommand(Intent intent, int flags, int startId)
+    {
 
         currentUserId = ParseUser.getCurrentUser().getObjectId();
 
-        if (currentUserId != null && !isSinchClientStarted()) {
+        if (currentUserId != null && !isSinchClientStarted())
+        {
             startSinchClient(currentUserId);
         }
 
@@ -55,12 +57,14 @@ public class MessageService extends Service implements SinchClientListener {
         sinchClient.start();
     }
 
-    private boolean isSinchClientStarted() {
+    private boolean isSinchClientStarted()
+    {
         return sinchClient != null && sinchClient.isStarted();
     }
 
     @Override
-    public void onClientFailed(SinchClient client, SinchError error) {
+    public void onClientFailed(SinchClient client, SinchError error)
+    {
         broadcastIntent.putExtra("success", false);
         broadcaster.sendBroadcast(broadcastIntent);
 
