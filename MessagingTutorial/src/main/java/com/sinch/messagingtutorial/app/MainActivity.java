@@ -185,7 +185,7 @@ public class MainActivity extends AppCompatActivity
         }
     };
 
-    SectionsPageAdapter mSectionsPageAdapter;
+    SectionsPagerAdapter mSectionsPagerAdapter;
 
     ViewPager mViewPager;
 
