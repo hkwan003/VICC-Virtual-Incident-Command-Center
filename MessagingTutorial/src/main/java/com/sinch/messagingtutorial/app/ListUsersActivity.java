@@ -33,7 +33,7 @@ public class ListUsersActivity extends Fragment
     private ArrayAdapter<String> namesArrayAdapter;
     private ArrayList<String> names;
     private ListView usersListView;
-    private Button logoutButton;
+    //private Button logoutButton;
     private ProgressDialog progressDialog;
     private BroadcastReceiver receiver = null;
 
@@ -54,18 +54,18 @@ public class ListUsersActivity extends Fragment
 
         //showSpinner();
 
-        logoutButton = (Button) getView().findViewById(R.id.logoutButton);
-        logoutButton.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                ListUsersActivity.this.getActivity().stopService(new Intent(getActivity().getApplicationContext(), MessageService.class));
-                ParseUser.logOut();
-                Intent intent = new Intent(getActivity().getApplicationContext(), LoginActivity.class);
-                startActivity(intent);
-            }
-        });
+        //logoutButton = (Button) getView().findViewById(R.id.logoutButton);
+        //logoutButton.setOnClickListener(new View.OnClickListener()
+//        {
+//            @Override
+//            public void onClick(View view)
+//            {
+//                ListUsersActivity.this.getActivity().stopService(new Intent(getActivity().getApplicationContext(), MessageService.class));
+//                ParseUser.logOut();
+//                Intent intent = new Intent(getActivity().getApplicationContext(), LoginActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
 
     }

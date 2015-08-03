@@ -25,7 +25,7 @@ public class SignUpActivity extends AppCompatActivity
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
-        onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
         mUsername = (EditText)findViewById(R.id.signUpUsername);
@@ -71,7 +71,7 @@ public class SignUpActivity extends AppCompatActivity
                             if(e == null)//login success
                             {
                                 //success
-                                Intent intent = new Intent(SignUpActivity.this, ListUsersActivity.class);
+                                Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                 startActivity(intent);

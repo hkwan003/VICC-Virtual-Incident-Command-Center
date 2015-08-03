@@ -22,12 +22,14 @@ public class MessageAdapter extends BaseAdapter
     private List<Pair<WritableMessage, Integer>> messages;
     private LayoutInflater layoutInflater;
 
-    public MessageAdapter(Activity activity) {
+    public MessageAdapter(Activity activity)
+    {
         layoutInflater = activity.getLayoutInflater();
         messages = new ArrayList<Pair<WritableMessage, Integer>>();
     }
 
-    public void addMessage(WritableMessage message, int direction) {
+    public void addMessage(WritableMessage message, int direction)
+    {
         messages.add(new Pair(message, direction));
         notifyDataSetChanged();
     }

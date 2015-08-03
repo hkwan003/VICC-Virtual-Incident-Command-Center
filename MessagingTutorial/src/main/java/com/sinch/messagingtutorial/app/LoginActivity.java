@@ -28,7 +28,8 @@ public class LoginActivity extends Activity
     private Intent serviceIntent;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
 
         intent = new Intent(getApplicationContext(), MainActivity.class);
@@ -58,7 +59,8 @@ public class LoginActivity extends Activity
             }
         });
 
-        loginButton.setOnClickListener(new View.OnClickListener() {
+        loginButton.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(View view) {
                 username = usernameField.getText().toString();
