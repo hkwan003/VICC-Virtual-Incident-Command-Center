@@ -33,6 +33,10 @@ class SectionsPagerAdapter extends FragmentPagerAdapter
         {
             fragment = new ListUsersActivity();
         }
+        if(position == 3)
+        {
+            fragment = new Commander();
+        }
         return fragment;
     }
 
@@ -40,7 +44,7 @@ class SectionsPagerAdapter extends FragmentPagerAdapter
     public int getCount()
     {
         // Show 3 total pages.
-        return 3;
+        return 4;
     }
     @Override
     public CharSequence getPageTitle(int position)
@@ -53,6 +57,8 @@ class SectionsPagerAdapter extends FragmentPagerAdapter
                 return mContext.getString(R.string.title_section2).toUpperCase(l);
             case 2:
                 return mContext.getString(R.string.title_section3).toUpperCase(l);
+            case 3:
+                return mContext.getString(R.string.title_section4).toUpperCase(l);
         }
         return null;
     }

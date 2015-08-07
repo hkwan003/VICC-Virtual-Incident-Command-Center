@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/linearLayout3"
+                android:layout_height="match_parent"
+                tools:context="com.sinch.messagingtutorial.app.Messaging.Commander"
+                android:background="@android:color/darker_gray"
+                android:backgroundTint="#0cffc3">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/incident_message"
+        android:layout_gravity="center"
+        android:maxLength="99999999"
+        android:hint="@string/commander_hint"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:id="@+id/send_button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="@string/commander_text"
+        android:id="@+id/textView"
+        android:layout_gravity="left|top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:textIsSelectable="true"
+        android:textColorLink="@android:color/holo_orange_light"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GPS_location"
+        android:id="@+id/GPS_Button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_above="@+id/send_button"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

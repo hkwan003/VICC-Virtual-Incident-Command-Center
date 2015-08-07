@@ -15,6 +15,7 @@
     <string name="title_section1">Inbox</string>
     <string name="title_section2">Friends</string>
     <string name="title_section3">Message Users</string>
+    <string name="title_section4">Message Commander</string>
 
     <string name="hello_world">Hello world!</string>
 
@@ -78,6 +79,10 @@
     <string name="List_user_error">display Error Message</string>
     <string name="title_activity_messaging">MessagingActivity</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="button_send">Send</string>
+    <string name="commander_text">Enter text which you wish to be sent to commander.</string>
+    <string name="commander_hint">input text here</string>
+    <string name="GPS_location">Show GPS Coordinates</string>
 
 
 </resources>
