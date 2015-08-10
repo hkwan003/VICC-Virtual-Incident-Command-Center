@@ -74,8 +74,8 @@ public class MessageService extends Service implements SinchClientListener
     @Override
     public void onClientStarted(SinchClient client)
     {
-//        broadcastIntent.putExtra("success", true);
-//        broadcaster.sendBroadcast(broadcastIntent);
+        broadcastIntent.putExtra("success", true);
+        broadcaster.sendBroadcast(broadcastIntent);
         client.startListeningOnActiveConnection();
         messageClient = client.getMessageClient();
     }
@@ -118,7 +118,8 @@ public class MessageService extends Service implements SinchClientListener
     }
 
     @Override
-    public void onDestroy() {
+    public void onDestroy()
+    {
         sinchClient.stopListeningOnActiveConnection();
         sinchClient.terminate();
     }

@@ -87,70 +87,88 @@ public class LoginActivity extends Activity
                 username = usernameField.getText().toString();
                 password = passwordField.getText().toString();
 
-                String requestURL = URL+"username="+username+"&password="+password+"&id=OpenHouse";
-
-
-
-                //network http request
-
-                if(NetworkAvail())
+                ParseUser.logInInBackground(username, password, new LogInCallback()
                 {
-                    OkHttpClient client = new OkHttpClient();
-                    Request request = new Request.Builder().url(requestURL).build();
-                    Call call = client.newCall(request);
-                    call.enqueue(new Callback()
+                    public void done(ParseUser user, ParseException e)
                     {
-                        @Override
-                        public void onFailure(Request request, IOException e)
+                        if (user != null)
                         {
-                            result = "Request Failed";
+                            startService(serviceIntent);
+                            startActivity(intent);
                         }
-                        @Override
-                        public void onResponse(Response response) throws IOException
+                        else
                         {
-                            try
-                            {
-                                //result contains the output of server-side script
-                                // "Agent","Commander","Denied"
-                                result = response.body().string();
-                                Log.v(TAG, result);
-                                //if(!response.isSuccessful())
-                                //{
-                                    //stop crashing
-                                //}
-                            }
-                            catch (IOException e)
-                            {
-                                Log.e(TAG, "exception caught", e);
-                            }
+                            Toast.makeText(getApplicationContext(),
+                                    "Calvin's parse DB",
+                                    Toast.LENGTH_LONG).show();
                         }
-                    });
-                }
-                else{
-                    //need internet connection toast
-                    result="Check Network Connection";
-                }
-                if(result.equals("Agent") || result.equals("Commander"))
-                {
-                    ParseUser.logInInBackground(username, password, new LogInCallback() {
-                        public void done(ParseUser user, ParseException e) {
-                            if (user != null) {
-                                startService(serviceIntent);
-                                startActivity(intent);
-                            } else {
-                                Toast.makeText(getApplicationContext(),
-                                        "Calvin's parse DB",
-                                        Toast.LENGTH_LONG).show();
-                            }
-                        }
-                    });
-                }
-                else
-                {
-                    Toast.makeText(getApplicationContext(),
-                            result,
-                            Toast.LENGTH_LONG).show();
-                }
+                    }
+                });
+
+//                String requestURL = URL+"username="+username+"&password="+password+"&id=OpenHouse";
+//
+//
+//
+//                //network http request
+//
+//                if(NetworkAvail())
+//                {
+//                    OkHttpClient client = new OkHttpClient();
+//                    Request request = new Request.Builder().url(requestURL).build();
+//                    Call call = client.newCall(request);
+//                    call.enqueue(new Callback()
+//                    {
+//                        @Override
+//                        public void onFailure(Request request, IOException e)
+//                        {
+//                            result = "Request Failed";
+//                        }
+//                        @Override
+//                        public void onResponse(Response response) throws IOException
+//                        {
+//                            try
+//                            {
+//                                //result contains the output of server-side script
+//                                // "Agent","Commander","Denied"
+//                                result = response.body().string();
+//                                Log.v(TAG, result);
+//                                //if(!response.isSuccessful())
+//                                //{
+//                                    //stop crashing
+//                                //}
+//                            }
+//                            catch (IOException e)
+//                            {
+//                                Log.e(TAG, "exception caught", e);
+//                            }
+//                        }
+//                    });
+//                }
+//                else{
+//                    //need internet connection toast
+//                    result="Check Network Connection";
+//                }
+//                if(result.equals("Agent") || result.equals("Commander"))
+//                {
+//                    ParseUser.logInInBackground(username, password, new LogInCallback() {
+//                        public void done(ParseUser user, ParseException e) {
+//                            if (user != null) {
+//                                startService(serviceIntent);
+//                                startActivity(intent);
+//                            } else {
+//                                Toast.makeText(getApplicationContext(),
+//                                        "Calvin's parse DB",
+//                                        Toast.LENGTH_LONG).show();
+//                            }
+//                        }
+//                    });
+//                }
+//                else
+//                {
+//                    Toast.makeText(getApplicationContext(),
+//                            result,
+//                            Toast.LENGTH_LONG).show();
+//                }
             }
         });
     }

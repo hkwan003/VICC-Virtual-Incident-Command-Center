@@ -58,9 +58,11 @@ public class MessagingActivity extends Activity
 
         messageBodyField = (EditText) findViewById(R.id.messageBodyField);
 
-        findViewById(R.id.sendButton).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.sendButton).setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view)
+            {
                 sendMessage();
             }
         });
@@ -78,7 +80,8 @@ public class MessagingActivity extends Activity
             @Override
             public void done(List<ParseObject> messageList, com.parse.ParseException e) {
                 if (e == null) {
-                    for (int i = 0; i < messageList.size(); i++) {
+                    for (int i = 0; i < messageList.size(); i++)
+                    {
                         WritableMessage message = new WritableMessage(messageList.get(i).get("recipientId").toString(), messageList.get(i).get("messageText").toString());
                         if (messageList.get(i).get("senderId").toString().equals(currentUserId)) {
                             messageAdapter.addMessage(message, MessageAdapter.DIRECTION_OUTGOING);
