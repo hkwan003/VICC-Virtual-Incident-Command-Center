@@ -119,16 +119,20 @@ public class MessageService extends Service implements SinchClientListener {
         sinchClient.terminate();
     }
 
-    public class MessageServiceInterface extends Binder {
-        public void sendMessage(String recipientUserId, String textBody) {
+    public class MessageServiceInterface extends Binder
+    {
+        public void sendMessage(String recipientUserId, String textBody)
+        {
             MessageService.this.sendMessage(recipientUserId, textBody);
         }
 
-        public void addMessageClientListener(MessageClientListener listener) {
+        public void addMessageClientListener(MessageClientListener listener)
+        {
             MessageService.this.addMessageClientListener(listener);
         }
 
-        public void removeMessageClientListener(MessageClientListener listener) {
+        public void removeMessageClientListener(MessageClientListener listener)
+        {
             MessageService.this.removeMessageClientListener(listener);
         }
 
