@@ -101,6 +101,10 @@ public class MessagingActivity extends Activity
 
         messageService.sendMessage(recipientId, messageBody);
         messageBodyField.setText("");
+
+        //Add message to database
+
+
     }
 
     @Override

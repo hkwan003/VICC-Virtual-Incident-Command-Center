@@ -25,4 +25,6 @@ dependencies {
     compile files('libs/Parse-1.6.0.jar')
     compile files('libs/sinch-android-rtc-3.3.5.jar')
     compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
+
 }
