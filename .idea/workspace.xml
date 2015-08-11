@@ -8,35 +8,34 @@
         </devices>
       </config>
     </shared>
-    <layouts>
-      <layout url="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_recipients.xml">
-        <config>
-          <theme>@style/Theme.AppCompat.Light.DarkActionBar</theme>
-        </config>
-      </layout>
-    </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3736f46-849b-48f6-9ba5-3d0462f4f294" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ParseConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SectionsPagerAdapter.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_list_users.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/Commander.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/FriendsFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/GPSTracker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/InboxFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ViewImageActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_view_image.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_commander.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_friends.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_inbox.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/okhttp_2_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/picasso_2_5_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ListUsersActivity.java" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ListUsersActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/LoginActivity.java" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MainActivity.java" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/res/menu/menu_main.xml" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/res/menu/menu_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/MessagingTutorial.iml" afterPath="$PROJECT_DIR$/MessagingTutorial/MessagingTutorial.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SectionsPagerAdapter.java" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SectionsPagerAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="android-messaging-tutorial.iws" />
@@ -58,16 +57,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-48.333332">
-              <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ListUsersActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ListUsersActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,28 +64,7 @@
               <caret line="45" column="24" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2596#3786#0" expanded="true" />
-                <element signature="e#3304#3572#0" expanded="true" />
-                <element signature="e#3571#3572#0" expanded="true" />
-                <element signature="e#3785#3786#0" expanded="true" />
-                <element signature="e#4058#4686#0" expanded="true" />
-                <element signature="e#4685#4686#0" expanded="true" />
-                <element signature="e#4812#5293#0" expanded="true" />
-                <element signature="e#5292#5293#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_list_users.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_list_users.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -106,35 +74,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="285" column="50" selection-start-line="285" selection-start-column="50" selection-end-line="285" selection-end-column="50" />
-              <folding>
-                <element signature="e#3371#3402#0" expanded="true" />
-                <element signature="e#4066#4097#0" expanded="true" />
-                <element signature="e#5236#5268#0" expanded="true" />
-                <element signature="e#5674#5720#0" expanded="true" />
-                <element signature="e#9254#9287#0" expanded="true" />
-                <element signature="e#10197#10224#0" expanded="true" />
-                <element signature="e#10450#10477#0" expanded="true" />
-                <element signature="e#11193#11227#0" expanded="true" />
-                <element signature="e#12493#12515#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.413794">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-              <folding>
-                <element signature="e#279#314#0" expanded="true" />
-                <element signature="e#352#387#0" expanded="true" />
-                <element signature="e#423#456#0" expanded="true" />
-                <element signature="e#495#528#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,43 +83,70 @@
         <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SectionsPagerAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1261#1304#0" expanded="true" />
-                <element signature="e#1364#1407#0" expanded="true" />
-                <element signature="e#1467#1510#0" expanded="true" />
-                <element signature="e#1570#1613#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParseConstants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ParseConstants.java">
+      <file leaf-file-name="fragment_commander.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_commander.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding />
+            <state vertical-scroll-proportion="-24.689655">
+              <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+              <folding>
+                <element signature="e#805#829#0" expanded="true" />
+                <element signature="e#1133#1154#0" expanded="true" />
+                <element signature="e#1511#1535#0" expanded="true" />
+                <element signature="e#2114#2136#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignUpActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SignUpActivity.java">
+      <file leaf-file-name="Commander.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/Commander.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
-              <folding />
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+              <folding>
+                <element signature="e#2378#3398#0" expanded="true" />
+                <element signature="e#3397#3398#0" expanded="true" />
+                <element signature="e#3442#4703#0" expanded="true" />
+                <element signature="e#4702#4703#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/LoginActivity.java">
+      <file leaf-file-name="GPSTracker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/GPSTracker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15517241">
-              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="107" column="52" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3817#3818#0" expanded="true" />
+                <element signature="e#3859#3860#0" expanded="true" />
+                <element signature="e#4170#4459#0" expanded="true" />
+                <element signature="e#4458#4459#0" expanded="true" />
+                <element signature="e#4511#4699#0" expanded="true" />
+                <element signature="e#4698#4699#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5225806">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -1493,6 +1460,9 @@
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar" />
                             <option value="$MODULE_DIR$/libs/Parse-1.6.0.jar" />
                             <option value="$MODULE_DIR$/libs/sinch-android-rtc-3.3.5.jar" />
+                            <option value="$MODULE_DIR$/libs/commons-io-2.4.jar" />
+                            <option value="$MODULE_DIR$/libs/okhttp-2.4.0.jar" />
+                            <option value="$MODULE_DIR$/libs/picasso-2.5.2.jar" />
                             <option value="$MODULE_DIR$/libs/android-support-v4.jar" />
                           </list>
                         </option>
@@ -1634,12 +1604,6 @@
       <list>
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SectionsPageAdapter.java" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ListUsersFragment.java" />
-        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ViewImageActivity.java" />
-        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_view_image.xml" />
-        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/FriendsFragment.java" />
-        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/InboxFragment.java" />
-        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_inbox.xml" />
-        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_friends.xml" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_list_users.xml" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/messaging.xml" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_sign_up.xml" />
@@ -1660,9 +1624,25 @@
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ListUsersActivity.java" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MainActivity.java" />
-        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SectionsPagerAdapter.java" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/InboxFragment.java" />
+        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_inbox.xml" />
+        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SectionsPagerAdapter.java" />
+        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ViewImageActivity.java" />
+        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_view_image.xml" />
+        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/FriendsFragment.java" />
+        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_friends.xml" />
+        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/Commander.java" />
+        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_commander.xml" />
+        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/GPSTracker.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -1695,6 +1675,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -1705,7 +1686,31 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-messaging-tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-messaging-tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-messaging-tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1778,29 +1783,18 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="android-messaging-tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-messaging-tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemId" value="MessagingTutorial" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="android-messaging-tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2045,17 +2039,16 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18264015" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16094032" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24920128" sideWeight="0.3053152" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7450271" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25949368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1880651" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2739602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2067,6 +2060,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2093,6 +2087,50 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ListUsersActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="24" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="285" column="50" selection-start-line="285" selection-start-column="50" selection-end-line="285" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SectionsPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SignUpActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2152,14 +2190,6 @@
           <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2596#3786#0" expanded="true" />
-            <element signature="e#3304#3572#0" expanded="true" />
-            <element signature="e#3571#3572#0" expanded="true" />
-            <element signature="e#3785#3786#0" expanded="true" />
-            <element signature="e#4058#4686#0" expanded="true" />
-            <element signature="e#4685#4686#0" expanded="true" />
-            <element signature="e#4812#5293#0" expanded="true" />
-            <element signature="e#5292#5293#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2186,14 +2216,6 @@
           <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2596#3786#0" expanded="true" />
-            <element signature="e#3304#3572#0" expanded="true" />
-            <element signature="e#3571#3572#0" expanded="true" />
-            <element signature="e#3785#3786#0" expanded="true" />
-            <element signature="e#4058#4686#0" expanded="true" />
-            <element signature="e#4685#4686#0" expanded="true" />
-            <element signature="e#4812#5293#0" expanded="true" />
-            <element signature="e#5292#5293#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2220,14 +2242,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2596#3786#0" expanded="true" />
-            <element signature="e#3304#3572#0" expanded="true" />
-            <element signature="e#3571#3572#0" expanded="true" />
-            <element signature="e#3785#3786#0" expanded="true" />
-            <element signature="e#4058#4686#0" expanded="true" />
-            <element signature="e#4685#4686#0" expanded="true" />
-            <element signature="e#4812#5293#0" expanded="true" />
-            <element signature="e#5292#5293#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2245,14 +2259,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2596#3786#0" expanded="true" />
-            <element signature="e#3304#3572#0" expanded="true" />
-            <element signature="e#3571#3572#0" expanded="true" />
-            <element signature="e#3785#3786#0" expanded="true" />
-            <element signature="e#4058#4686#0" expanded="true" />
-            <element signature="e#4685#4686#0" expanded="true" />
-            <element signature="e#4812#5293#0" expanded="true" />
-            <element signature="e#5292#5293#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2301,19 +2307,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19319429">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MessageService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2321,94 +2318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SignUpActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-48.333332">
-          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ParseConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ListUsersActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="24" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2596#3786#0" expanded="true" />
-            <element signature="e#3304#3572#0" expanded="true" />
-            <element signature="e#3571#3572#0" expanded="true" />
-            <element signature="e#3785#3786#0" expanded="true" />
-            <element signature="e#4058#4686#0" expanded="true" />
-            <element signature="e#4685#4686#0" expanded="true" />
-            <element signature="e#4812#5293#0" expanded="true" />
-            <element signature="e#5292#5293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_list_users.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.413794">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="e#279#314#0" expanded="true" />
-            <element signature="e#352#387#0" expanded="true" />
-            <element signature="e#423#456#0" expanded="true" />
-            <element signature="e#495#528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="285" column="50" selection-start-line="285" selection-start-column="50" selection-end-line="285" selection-end-column="50" />
-          <folding>
-            <element signature="e#3371#3402#0" expanded="true" />
-            <element signature="e#4066#4097#0" expanded="true" />
-            <element signature="e#5236#5268#0" expanded="true" />
-            <element signature="e#5674#5720#0" expanded="true" />
-            <element signature="e#9254#9287#0" expanded="true" />
-            <element signature="e#10197#10224#0" expanded="true" />
-            <element signature="e#10450#10477#0" expanded="true" />
-            <element signature="e#11193#11227#0" expanded="true" />
-            <element signature="e#12493#12515#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2424,24 +2333,211 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SectionsPagerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_list_users.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5480427">
+          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ListUsersActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="24" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1261#1304#0" expanded="true" />
-            <element signature="e#1364#1407#0" expanded="true" />
-            <element signature="e#1467#1510#0" expanded="true" />
-            <element signature="e#1570#1613#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42806184">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="e#279#314#0" expanded="true" />
+            <element signature="e#352#387#0" expanded="true" />
+            <element signature="e#423#456#0" expanded="true" />
+            <element signature="e#495#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="285" column="50" selection-start-line="285" selection-start-column="50" selection-end-line="285" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ParseConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39655173">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_inbox.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34182304">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/InboxFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0451612">
+          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+          <folding>
+            <element signature="e#1213#1226#0" expanded="true" />
+            <element signature="e#1508#2575#0" expanded="true" />
+            <element signature="e#2377#2385#0" expanded="true" />
+            <element signature="e#2574#2575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_view_image.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3016086">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ViewImageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83225805">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/FriendsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+          <folding>
+            <element signature="e#1670#3279#0" expanded="true" />
+            <element signature="e#2320#2328#0" expanded="true" />
+            <element signature="e#3046#3066#0" expanded="true" />
+            <element signature="e#3278#3279#0" expanded="true" />
+            <element signature="e#3809#4304#0" expanded="true" />
+            <element signature="e#4303#4304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_friends.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44235924">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SignUpActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67741936">
+          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15517241">
+        <state vertical-scroll-proportion="0.0">
           <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/SectionsPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_commander.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.689655">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding>
+            <element signature="e#805#829#0" expanded="true" />
+            <element signature="e#1133#1154#0" expanded="true" />
+            <element signature="e#1511#1535#0" expanded="true" />
+            <element signature="e#2114#2136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/Commander.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="e#2378#3398#0" expanded="true" />
+            <element signature="e#3397#3398#0" expanded="true" />
+            <element signature="e#3442#4703#0" expanded="true" />
+            <element signature="e#4702#4703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/GPSTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="52" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3817#3818#0" expanded="true" />
+            <element signature="e#3859#3860#0" expanded="true" />
+            <element signature="e#4170#4459#0" expanded="true" />
+            <element signature="e#4458#4459#0" expanded="true" />
+            <element signature="e#4511#4699#0" expanded="true" />
+            <element signature="e#4698#4699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5225806">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding />
         </state>
       </provider>

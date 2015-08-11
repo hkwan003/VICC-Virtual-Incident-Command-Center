@@ -23,28 +23,28 @@ class SectionsPagerAdapter extends FragmentPagerAdapter
         Fragment fragment = null;
         if(position == 0)
         {
+            fragment = new InboxFragment();
+        }
+        if(position == 1)
+        {
+            fragment = new FriendsFragment();
+        }
+        if(position == 2)
+        {
             fragment = new ListUsersActivity();
         }
-//        if(position == 1)
-//        {
-//            fragment = new FriendsFragment();
-//        }
-//        if(position == 2)
-//        {
-//            fragment = new ListUsersActivity();
-//        }
-//        if(position == 3)
-//        {
-//            fragment = new Commander();
-//        }
+        if(position == 3)
+        {
+            fragment = new Commander();
+        }
         return fragment;
     }
 
     @Override
     public int getCount()
     {
-        // Show 3 total pages.
-        return 1;
+        // Show 4 total pages.
+        return 4;
     }
     @Override
     public CharSequence getPageTitle(int position)
