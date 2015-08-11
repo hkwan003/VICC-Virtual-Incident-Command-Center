@@ -52,21 +52,6 @@ public class ListUsersActivity extends Fragment
         setConversationsList();
         super.onResume();
 
-        //showSpinner();
-
-        //logoutButton = (Button) getView().findViewById(R.id.logoutButton);
-        //logoutButton.setOnClickListener(new View.OnClickListener()
-//        {
-//            @Override
-//            public void onClick(View view)
-//            {
-//                ListUsersActivity.this.getActivity().stopService(new Intent(getActivity().getApplicationContext(), MessageService.class));
-//                ParseUser.logOut();
-//                Intent intent = new Intent(getActivity().getApplicationContext(), LoginActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-
 
     }
 
@@ -127,27 +112,6 @@ public class ListUsersActivity extends Fragment
                 }
             }
         });
-    }
-
-    //show a loading spinner while the sinch client starts
-    private void showSpinner()
-    {
-
-        receiver = new BroadcastReceiver()
-        {
-            @Override
-            public void onReceive(Context context, Intent intent)
-            {
-                Boolean success = intent.getBooleanExtra("success", false);
-                progressDialog.dismiss();
-                if (!success)
-                {
-                    Toast.makeText(getActivity().getApplicationContext(), "Messaging service failed to start", Toast.LENGTH_LONG).show();
-                }
-            }
-        };
-
-        LocalBroadcastManager.getInstance(super.getActivity()).registerReceiver(receiver, new IntentFilter("com.sinch.messagingtutorial.app.ListUsersActivity"));
     }
 
 }

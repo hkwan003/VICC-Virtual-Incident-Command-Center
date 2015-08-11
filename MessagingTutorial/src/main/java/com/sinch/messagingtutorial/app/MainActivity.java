@@ -214,6 +214,7 @@ public class MainActivity extends AppCompatActivity
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.pager);
         mViewPager.setAdapter(mSectionsPagerAdapter);
+        getSupportActionBar().setTitle(currentUser.getUsername());
 
     }
 
@@ -282,8 +283,8 @@ public class MainActivity extends AppCompatActivity
                 sendBroadcast(mediaScanIntent);
             }
 
-//            Intent recipientsIntent = new Intent(this, RecipientsActivity.class);
-//            recipientsIntent.setData(mMediaUri);
+            Intent recipientsIntent = new Intent(this, RecipientsActivity.class);
+            recipientsIntent.setData(mMediaUri);
 
             String fileType;
             if(requestCode == PICK_PHOTO_REQUEST || requestCode == TAKE_PHOTO_REQUEST)//needs to determine before sending to parse what kind of file is it
@@ -294,8 +295,8 @@ public class MainActivity extends AppCompatActivity
             {
                 fileType = ParseConstants.TYPE_VIDEO;       //equals video file type
             }
-//            recipientsIntent.putExtra(ParseConstants.KEY_FILE_TYPE, fileType);
-//            startActivity(recipientsIntent);
+            recipientsIntent.putExtra(ParseConstants.KEY_FILE_TYPE, fileType);
+            startActivity(recipientsIntent);
         }
         else if(resultCode != RESULT_CANCELED)
         {
@@ -337,11 +338,11 @@ public class MainActivity extends AppCompatActivity
             AlertDialog dialog = builder.create();
             dialog.show();
         }
-//        else if (id == R.id.action_edit_friends)
-//        {
-//            Intent intent = new Intent(this, EditFriendsActivity.class);
-//            startActivity(intent);
-//        }
+        else if (id == R.id.action_edit_friends)
+        {
+            Intent intent = new Intent(this, EditFriendsActivity.class);
+            startActivity(intent);
+        }
 
         return super.onOptionsItemSelected(item);
     }
