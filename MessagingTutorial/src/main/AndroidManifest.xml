@@ -38,14 +38,15 @@
             android:name=".SignUpActivity"
             android:label="@string/title_activity_sign_up"
             android:screenOrientation="portrait" >
-/>          <meta-data
+/>          
+            <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sinch.messagingtutorial.app.LoginActivity" />
-            </activity>
+        </activity>
         <activity
             android:name=".MainActivity"
-            android:windowSoftInputMode="adjustPan"
-            android:label="@string/title_activity_main" >
+            android:label="@string/title_activity_main"
+            android:windowSoftInputMode="adjustPan" >
         </activity>
         <activity
             android:name=".ViewImageActivity"
@@ -61,6 +62,10 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sinch.messagingtutorial.app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EditFriendsActivity"
+            android:label="@string/title_activity_edit_friends" >
         </activity>
     </application>
 
