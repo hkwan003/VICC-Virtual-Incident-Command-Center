@@ -4,9 +4,9 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:name=".MyApplication"
@@ -38,16 +38,26 @@
             android:name=".SignUpActivity"
             android:label="@string/title_activity_sign_up"
             android:screenOrientation="portrait" >
-/>
-        </activity>
+/>          <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sinch.messagingtutorial.app.LoginActivity" />
+            </activity>
         <activity
             android:name=".MainActivity"
+            android:windowSoftInputMode="adjustPan"
             android:label="@string/title_activity_main" >
         </activity>
         <activity
             android:name=".ViewImageActivity"
             android:label="@string/title_activity_view_image"
             android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sinch.messagingtutorial.app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RecipientsActivity"
+            android:label="@string/title_activity_recipients" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sinch.messagingtutorial.app.MainActivity" />
