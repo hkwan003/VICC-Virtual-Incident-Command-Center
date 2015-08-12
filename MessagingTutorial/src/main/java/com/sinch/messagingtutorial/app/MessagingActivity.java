@@ -170,7 +170,7 @@ public class MessagingActivity extends Activity
         @Override
         public void onMessageDelivered(MessageClient client, MessageDeliveryInfo deliveryInfo)
         {
-            Toast.makeText(MessagingActivity.this, "Message delivered.", Toast.LENGTH_LONG).show();
+            Toast.makeText(MessagingActivity.this, "Message delivered.", Toast.LENGTH_SHORT).show();
         }
 
         @Override

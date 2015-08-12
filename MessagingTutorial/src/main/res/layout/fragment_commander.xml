@@ -5,7 +5,7 @@
                 android:layout_height="match_parent"
                 tools:context="com.sinch.messagingtutorial.app.Messaging.Commander"
                 android:background="@android:color/darker_gray"
-                android:backgroundTint="#0cffc3">
+                android:backgroundTint="#ffffff">
 
 
     <EditText

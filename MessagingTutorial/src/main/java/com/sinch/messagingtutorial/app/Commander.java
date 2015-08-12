@@ -101,12 +101,13 @@ public class Commander extends Fragment
                     ParseObject Score = new ParseObject("Score");
                     Score.put("Username", incident_report);
                     Score.put("Latitude", latitude);
-                    Score.put("Longitude",longitude);
+                    Score.put("Longitude", longitude);
                     Score.saveInBackground();
 
                     Toast.makeText(getActivity().getApplicationContext(),       //make text toast of the coordinates and outputs it
-                            "Please work",
+                            "Message Sent",
                             Toast.LENGTH_LONG).show();
+                    ((EditText) getActivity().findViewById(R.id.incident_message)).setText("");
                 }
                 else
                 {
