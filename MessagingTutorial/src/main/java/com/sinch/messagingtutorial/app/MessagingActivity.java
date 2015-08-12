@@ -176,7 +176,6 @@ public class MessagingActivity extends Activity
                 }
             });
         }
-
         @Override
         public void onMessageDelivered(MessageClient client, MessageDeliveryInfo deliveryInfo)
         {
