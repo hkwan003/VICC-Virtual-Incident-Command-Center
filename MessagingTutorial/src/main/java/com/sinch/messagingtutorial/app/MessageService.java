@@ -1,7 +1,10 @@
 package com.sinch.messagingtutorial.app;
 
 import android.app.Service;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Binder;
 import android.os.IBinder;
 import android.support.v4.content.LocalBroadcastManager;
@@ -16,8 +19,8 @@ import com.sinch.android.rtc.messaging.MessageClient;
 import com.sinch.android.rtc.messaging.MessageClientListener;
 import com.sinch.android.rtc.messaging.WritableMessage;
 
-public class MessageService extends Service implements SinchClientListener {
-
+public class MessageService extends Service implements SinchClientListener
+{
     private static final String APP_KEY = "20cdafd6-9442-4990-b5c8-0b035b66c3a6";
     private static final String APP_SECRET = "LhMXj/ObCEqULU3DfqABWw==";
     private static final String ENVIRONMENT = "sandbox.sinch.com";
@@ -140,5 +143,6 @@ public class MessageService extends Service implements SinchClientListener {
             return MessageService.this.isSinchClientStarted();
         }
     }
+
 }
 

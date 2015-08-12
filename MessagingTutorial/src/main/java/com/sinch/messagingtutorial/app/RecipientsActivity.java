@@ -232,4 +232,6 @@ public class RecipientsActivity extends ListActivity
             }
         });
     }
+
+
 }

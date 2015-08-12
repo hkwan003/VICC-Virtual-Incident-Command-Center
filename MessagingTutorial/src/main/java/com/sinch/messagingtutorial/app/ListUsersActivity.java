@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.LocalBroadcastManager;
 import android.view.LayoutInflater;
@@ -93,7 +94,7 @@ public class ListUsersActivity extends Fragment
     }
 
     //open a conversation with one person
-    public void openConversation(ArrayList<String> names, int pos)
+    public void openConversation(final ArrayList<String> names, final int pos)
     {
         ParseQuery<ParseUser> query = ParseUser.getQuery();
         query.whereEqualTo("username", names.get(pos));
@@ -104,6 +105,7 @@ public class ListUsersActivity extends Fragment
                 if (e == null)
                 {
                     Intent intent = new Intent(getActivity().getApplicationContext(), MessagingActivity.class);
+                    intent.putExtra("RECIPIENT_NAME", names.get(pos));
                     intent.putExtra("RECIPIENT_ID", user.get(0).getObjectId());
                     startActivity(intent);
                 } else

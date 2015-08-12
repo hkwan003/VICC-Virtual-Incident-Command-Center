@@ -91,10 +91,7 @@ public class LoginActivity extends Activity
 
                 String requestURL = URL+"username="+username+"&password="+password+"&id=OpenHouse";
 
-
-
                 //network http request
-
                 if(NetworkAvail())
                 {
                     OkHttpClient client = new OkHttpClient();
@@ -112,14 +109,8 @@ public class LoginActivity extends Activity
                         {
                             try
                             {
-                                //result contains the output of server-side script
-                                // "Agent","Commander","Denied"
                                 result = response.body().string();
                                 Log.v(TAG, result);
-                                //if(!response.isSuccessful())
-                                //{
-                                //stop crashing
-                                //}
                             }
                             catch (IOException e)
                             {
@@ -128,7 +119,8 @@ public class LoginActivity extends Activity
                         }
                     });
                 }
-                else{
+                else
+                {
                     //need internet connection toast
                     result="Check Network Connection";
                 }
@@ -142,28 +134,23 @@ public class LoginActivity extends Activity
                             {
                                 startService(serviceIntent);
                                 startActivity(intent);
-                            } else {
-                                Toast.makeText(getApplicationContext(),
-                                        "Calvin's parse DB",
-                                        Toast.LENGTH_LONG).show();
+                                Toast.makeText(getApplicationContext(), "Welcome Back " + username, Toast.LENGTH_LONG).show();
+                            }
+                            else
+                            {
+                                Toast.makeText(getApplicationContext(), "Calvin's parse DB", Toast.LENGTH_LONG).show();
                             }
                         }
                     });
                 }
+
                 else
                 {
-                    if(((result.equals("") || result.equals("Denied")) && increment == 0))
-                    {
-                        increment++;
-                        NetworkAvail();
-                    }
-                    else
-                    {
-                        Toast.makeText(getApplicationContext(), result, Toast.LENGTH_LONG).show();
-                        increment = 0;
-                    }
+                    Toast.makeText(getApplicationContext(), result, Toast.LENGTH_LONG).show();
+                    increment = 0;
                 }
             }
+
         });
     }
 

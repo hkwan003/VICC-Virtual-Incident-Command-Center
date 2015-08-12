@@ -2,8 +2,11 @@ package com.sinch.messagingtutorial.app;
 
 import android.app.Activity;
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.view.View;
@@ -28,7 +31,9 @@ import java.util.List;
 
 public class MessagingActivity extends Activity
 {
-
+    ParseUser mParseUser;
+    private String URL = "alpha.deep-horizons.net/icc/IncidentControl"; //URL to send message from instant messages
+    private String recipientName;
     private String recipientId;
     private EditText messageBodyField;
     private String messageBody;
@@ -49,6 +54,7 @@ public class MessagingActivity extends Activity
 
         Intent intent = getIntent();
         recipientId = intent.getStringExtra("RECIPIENT_ID");
+        recipientName = intent.getStringExtra("RECIPIENT_NAME");
         currentUserId = ParseUser.getCurrentUser().getObjectId();
 
         messagesList = (ListView) findViewById(R.id.listMessages);
@@ -99,8 +105,11 @@ public class MessagingActivity extends Activity
             return;
         }
 
+        //String requestURL = URL + "/MessageSend.php?from=" + mParseUser.getCurrentUser() + "&to=" + recipientName + "&msg=" + messageBody;
+
         messageService.sendMessage(recipientId, messageBody);
         messageBodyField.setText("");
+
     }
 
     @Override
@@ -141,7 +150,7 @@ public class MessagingActivity extends Activity
         }
 
         @Override
-        public void onMessageSent(MessageClient client, Message message, String recipientId) {
+        public void onMessageSent(MessageClient client, Message message, final String recipientId) {
 
             final WritableMessage writableMessage = new WritableMessage(message.getRecipientIds().get(0), message.getTextBody());
 
@@ -158,6 +167,7 @@ public class MessagingActivity extends Activity
                             parseMessage.put("recipientId", writableMessage.getRecipientIds().get(0));
                             parseMessage.put("messageText", writableMessage.getTextBody());
                             parseMessage.put("sinchId", writableMessage.getMessageId());
+                            //Toast.makeText(getApplicationContext(), "Receipient username " + recipientName, Toast.LENGTH_LONG).show();
                             parseMessage.saveInBackground();
 
                             messageAdapter.addMessage(writableMessage, MessageAdapter.DIRECTION_OUTGOING);
@@ -175,6 +185,20 @@ public class MessagingActivity extends Activity
 
         @Override
         public void onShouldSendPushData(MessageClient client, Message message, List<PushPair> pushPairs) {}
+    }
+
+    public boolean NetworkAvail()
+    {
+        ConnectivityManager manager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = manager.getActiveNetworkInfo();
+        boolean isAvailable = false;
+        if(networkInfo != null && networkInfo.isConnected())
+        {
+            isAvailable = true;
+        }
+        return isAvailable;
+
+
     }
 }
 
