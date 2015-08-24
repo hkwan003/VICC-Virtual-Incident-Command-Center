@@ -23,12 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ListUsersActivity"
-            android:screenOrientation="portrait" >
-        </activity>
 
-        <service android:name=".MessageService" />
 
         <activity
             android:name=".MessagingActivity"
