@@ -92,49 +92,7 @@ public class LoginActivity extends Activity
                 String requestURL = URL+"username="+username+"&password="+password+"&id=OpenHouse";
 
 
-
-                //network http request
-
-                if(NetworkAvail())
-                {
-                    OkHttpClient client = new OkHttpClient();
-                    Request request = new Request.Builder().url(requestURL).build();
-                    Call call = client.newCall(request);
-                    call.enqueue(new Callback()
-                    {
-                        @Override
-                        public void onFailure(Request request, IOException e)
-                        {
-                            result = "Request Failed";
-                        }
-                        @Override
-                        public void onResponse(Response response) throws IOException
-                        {
-                            try
-                            {
-                                //result contains the output of server-side script
-                                // "Agent","Commander","Denied"
-                                result = response.body().string();
-                                Log.v(TAG, result);
-                                //if(!response.isSuccessful())
-                                //{
-                                //stop crashing
-                                //}
-                            }
-                            catch (IOException e)
-                            {
-                                Log.e(TAG, "exception caught", e);
-                            }
-                        }
-                    });
-                }
-                else{
-                    //need internet connection toast
-                    result="Check Network Connection";
-                }
-                if(result.equals("Agent") || result.equals("Commander"))
-                {
-                    ParseUser.logInInBackground(username, password, new LogInCallback()
+                ParseUser.logInInBackground(username, password, new LogInCallback()
                     {
                         public void done(ParseUser user, ParseException e)
                         {
@@ -149,20 +107,7 @@ public class LoginActivity extends Activity
                             }
                         }
                     });
-                }
-                else
-                {
-                    if(((result.equals("") || result.equals("Denied")) && increment == 0))
-                    {
-                        increment++;
-                        NetworkAvail();
-                    }
-                    else
-                    {
-                        Toast.makeText(getApplicationContext(), result, Toast.LENGTH_LONG).show();
-                        increment = 0;
-                    }
-                }
+
             }
         });
     }
@@ -172,20 +117,5 @@ public class LoginActivity extends Activity
     {
         stopService(new Intent(this, MessageService.class));
         super.onDestroy();
-    }
-
-
-    public boolean NetworkAvail()
-    {
-        ConnectivityManager manager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo networkInfo = manager.getActiveNetworkInfo();
-        boolean isAvailable = false;
-        if(networkInfo != null && networkInfo.isConnected())
-        {
-            isAvailable = true;
-        }
-        return isAvailable;
-
-
     }
 }

@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
 
-
+        <service android:name=".MessageService" />
         <activity
             android:name=".MessagingActivity"
             android:screenOrientation="portrait" >
@@ -39,6 +39,7 @@
                 android:value="com.sinch.messagingtutorial.app.LoginActivity" />
         </activity>
         <activity
+            android:theme="@style/Theme.AppCompat.Light"
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait"
