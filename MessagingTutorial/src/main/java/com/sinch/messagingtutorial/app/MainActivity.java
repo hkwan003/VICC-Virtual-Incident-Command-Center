@@ -331,6 +331,11 @@ public class MainActivity extends AppCompatActivity
             ParseUser.logOut();
             navigateToLogin();
         }
+        else if(id == R.id.map)
+        {
+            Intent intent = new Intent(this, openLayersMap.class);
+            startActivity(intent);
+        }
         else if(id == R.id.media_actions)
         {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);

@@ -25,6 +25,7 @@
         </activity>
 
         <service android:name=".MessageService" />
+
         <activity
             android:name=".MessagingActivity"
             android:screenOrientation="portrait" >
@@ -39,10 +40,10 @@
                 android:value="com.sinch.messagingtutorial.app.LoginActivity" />
         </activity>
         <activity
-            android:theme="@style/Theme.AppCompat.Light"
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light"
             android:windowSoftInputMode="adjustPan" >
         </activity>
         <activity
@@ -55,16 +56,24 @@
         </activity>
         <activity
             android:name=".RecipientsActivity"
-            android:screenOrientation="portrait"
-            android:label="@string/title_activity_recipients" >
+            android:label="@string/title_activity_recipients"
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sinch.messagingtutorial.app.MainActivity" />
         </activity>
         <activity
             android:name=".EditFriendsActivity"
-            android:screenOrientation="portrait"
-            android:label="@string/title_activity_edit_friends" >
+            android:label="@string/title_activity_edit_friends"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".openLayersMap"
+            android:label="@string/title_activity_open_layers_map"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sinch.messagingtutorial.app.MainActivity" />
         </activity>
     </application>
 
