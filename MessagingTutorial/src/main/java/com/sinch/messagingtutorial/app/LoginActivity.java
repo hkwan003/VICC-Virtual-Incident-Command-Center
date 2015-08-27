@@ -96,6 +96,7 @@ public class LoginActivity extends Activity
                     {
                         if (user != null)
                         {
+                            MyApplication.updateParseInstallation(user);
                             startActivity(intent);
                         }
                         else
@@ -110,7 +111,6 @@ public class LoginActivity extends Activity
             }
         });
     }
-
     @Override
     public void onDestroy()
     {

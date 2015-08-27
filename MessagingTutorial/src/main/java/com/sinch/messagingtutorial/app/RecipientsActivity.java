@@ -20,6 +20,7 @@ import com.parse.ParseException;
 import com.parse.ParseFile;
 import com.parse.ParseInstallation;
 import com.parse.ParseObject;
+import com.parse.ParsePush;
 import com.parse.ParseQuery;
 import com.parse.ParseRelation;
 import com.parse.ParseUser;
@@ -239,5 +240,11 @@ public class RecipientsActivity extends ListActivity
     {
         ParseQuery<ParseInstallation> query = ParseInstallation.getQuery();
         query.whereContainedIn(ParseConstants.KEY_USER_ID, getRecipientsIds());
+        ParseUser currUser = ParseUser.getCurrentUser();
+        //send push notification
+        ParsePush push = new ParsePush();
+        push.setQuery(query);
+        push.setMessage("You have a new message from " + currUser.getUsername());
+        push.sendInBackground();
     }
 }

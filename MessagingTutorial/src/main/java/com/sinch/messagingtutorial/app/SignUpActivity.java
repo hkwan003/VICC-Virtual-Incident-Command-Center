@@ -69,6 +69,7 @@ public class SignUpActivity extends AppCompatActivity
                         {
                             if(e == null)//login success
                             {
+                                MyApplication.updateParseInstallation(ParseUser.getCurrentUser());
                                 //success
                                 Intent intent = new Intent(SignUpActivity.this, ListUsersActivity.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

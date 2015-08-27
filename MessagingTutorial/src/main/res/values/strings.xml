@@ -84,6 +84,7 @@
     <string name="commander_hint">input text here</string>
     <string name="GPS_location">Show GPS Coordinates</string>
     <string name="title_activity_open_layers_map">openLayersMap</string>
+    <string name ="push_message">You have a new media message from </string>
 
 
 </resources>
