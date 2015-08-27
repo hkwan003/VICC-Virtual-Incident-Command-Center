@@ -55,11 +55,9 @@ public class LoginActivity extends Activity
 
         //login portion
         intent = new Intent(getApplicationContext(), MainActivity.class);
-        serviceIntent = new Intent(getApplicationContext(), MessageService.class);
-
         ParseUser currentUser = ParseUser.getCurrentUser();
-        if (currentUser != null) {
-            startService(serviceIntent);
+        if (currentUser != null)
+        {
             startActivity(intent);
         }
 
@@ -93,23 +91,21 @@ public class LoginActivity extends Activity
 
 
                 ParseUser.logInInBackground(username, password, new LogInCallback()
+                {
+                    public void done(ParseUser user, ParseException e)
                     {
-                        public void done(ParseUser user, ParseException e)
+                        if (user != null)
                         {
-                            if (user != null)
-                            {
-                                startService(serviceIntent);
-                                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                                startActivity(intent);
-                            } else
-                            {
-                                Toast.makeText(getApplicationContext(),
-                                        "Calvin's parse DB",
-                                        Toast.LENGTH_LONG).show();
-                            }
+                            startActivity(intent);
                         }
-                    });
+                        else
+                        {
+                            Toast.makeText(getApplicationContext(),
+                                    "Calvin's parse DB",
+                                    Toast.LENGTH_LONG).show();
+                        }
+                    }
+                });
 
             }
         });

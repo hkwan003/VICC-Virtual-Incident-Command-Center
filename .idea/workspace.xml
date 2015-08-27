@@ -15,120 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3736f46-849b-48f6-9ba5-3d0462f4f294" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/bolts_android_1_2_1.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/allclasses-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/allclasses-noframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ConfigCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/CountCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/DeleteCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/FindCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/FunctionCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/GetCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/GetDataCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/LocationCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/LogInCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/Parse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseACL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseAnalytics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseAnonymousUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseClassName.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseCloud.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseConfig.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseFacebookUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseFile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseGeoPoint.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseImageView.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseInstallation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseObject.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParsePush.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseQuery.CachePolicy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseQuery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseQueryAdapter.OnQueryLoadListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseQueryAdapter.QueryFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseQueryAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseRelation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseRole.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseTwitterUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ParseUser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/ProgressCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/PushService.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/RefreshCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/RequestPasswordResetCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/SaveCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/SendCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/SignUpCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ConfigCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/CountCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/DeleteCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/FindCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/FunctionCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/GetCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/GetDataCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/LocationCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/LogInCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/Parse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseACL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseAnalytics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseAnonymousUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseClassName.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseCloud.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseConfig.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseException.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseFacebookUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseFile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseGeoPoint.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseImageView.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseInstallation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseObject.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParsePush.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseQuery.CachePolicy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseQuery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseQueryAdapter.OnQueryLoadListener.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseQueryAdapter.QueryFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseQueryAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseRelation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseRole.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseTwitterUtils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ParseUser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/ProgressCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/PushService.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/RefreshCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/RequestPasswordResetCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/SaveCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/SendCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/class-use/SignUpCallback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/com/parse/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/constant-values.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/deprecated-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/help-doc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/index-all.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/overview-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/package-list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/resources/inherit.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/serialized-form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0-javadoc/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MessagingTutorial/libs/Parse-1.6.0.jar.properties" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Parse_1_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Parse_1_10_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/LoginActivity.java" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/MessagingTutorial.iml" afterPath="$PROJECT_DIR$/MessagingTutorial/MessagingTutorial.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MyApplication.java" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MyApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ParseConstants.java" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ParseConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/RecipientsActivity.java" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/RecipientsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/build.gradle" afterPath="$PROJECT_DIR$/MessagingTutorial/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/openLayersMap.java" afterPath="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/openLayersMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="android-messaging-tutorial.iws" />
@@ -154,7 +45,41 @@
         <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
+              <caret line="195" column="47" selection-start-line="195" selection-start-column="47" selection-end-line="195" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3371#3402#0" expanded="true" />
+                <element signature="e#4066#4097#0" expanded="true" />
+                <element signature="e#5236#5268#0" expanded="true" />
+                <element signature="e#5674#5720#0" expanded="true" />
+                <element signature="e#9321#9354#0" expanded="true" />
+                <element signature="e#10264#10291#0" expanded="true" />
+                <element signature="e#10517#10544#0" expanded="true" />
+                <element signature="e#11260#11294#0" expanded="true" />
+                <element signature="e#12552#12574#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListUsersActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ListUsersActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+              <folding>
+                <element signature="e#3432#4060#0" expanded="true" />
+                <element signature="e#4059#4060#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MessageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -208,11 +133,11 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55943155">
-              <caret line="102" column="81" selection-start-line="102" selection-start-column="81" selection-end-line="102" selection-end-column="81" />
+            <state vertical-scroll-proportion="-0.007751938">
+              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding>
-                <element signature="e#2920#3759#0" expanded="true" />
-                <element signature="e#3758#3759#0" expanded="true" />
+                <element signature="e#2803#3387#0" expanded="true" />
+                <element signature="e#3386#3387#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1698,13 +1623,11 @@
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_edit_friends.xml" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_recipients.xml" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/menu/menu_recipients.xml" />
-        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ListUsersActivity.java" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_list_users.xml" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MessagingActivity.java" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/Commander.java" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/fragment_commander.xml" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_open_layers_map.xml" />
-        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MainActivity.java" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/openLayersMap.java" />
         <option value="$PROJECT_DIR$/MessagingTutorial/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MyApplication.java" />
@@ -1712,6 +1635,8 @@
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/RecipientsActivity.java" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ParseConstants.java" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ListUsersActivity.java" />
+        <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MainActivity.java" />
         <option value="$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/LoginActivity.java" />
       </list>
     </option>
@@ -2130,7 +2055,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36889693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27486438" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27486438" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2499,20 +2424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ListUsersActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8534202">
-          <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/res/layout/activity_open_layers_map.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2555,14 +2466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13914657">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -2612,13 +2515,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/ListUsersActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+          <folding>
+            <element signature="e#3432#4060#0" expanded="true" />
+            <element signature="e#4059#4060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="195" column="47" selection-start-line="195" selection-start-column="47" selection-end-line="195" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3371#3402#0" expanded="true" />
+            <element signature="e#4066#4097#0" expanded="true" />
+            <element signature="e#5236#5268#0" expanded="true" />
+            <element signature="e#5674#5720#0" expanded="true" />
+            <element signature="e#9321#9354#0" expanded="true" />
+            <element signature="e#10264#10291#0" expanded="true" />
+            <element signature="e#10517#10544#0" expanded="true" />
+            <element signature="e#11260#11294#0" expanded="true" />
+            <element signature="e#12552#12574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MessagingTutorial/src/main/java/com/sinch/messagingtutorial/app/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55943155">
-          <caret line="102" column="81" selection-start-line="102" selection-start-column="81" selection-end-line="102" selection-end-column="81" />
+        <state vertical-scroll-proportion="-0.007751938">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
           <folding>
-            <element signature="e#2920#3759#0" expanded="true" />
-            <element signature="e#3758#3759#0" expanded="true" />
+            <element signature="e#2803#3387#0" expanded="true" />
+            <element signature="e#3386#3387#0" expanded="true" />
           </folding>
         </state>
       </provider>
