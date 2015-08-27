@@ -99,8 +99,11 @@ public class LoginActivity extends Activity
                             if (user != null)
                             {
                                 startService(serviceIntent);
+                                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                 startActivity(intent);
-                            } else {
+                            } else
+                            {
                                 Toast.makeText(getApplicationContext(),
                                         "Calvin's parse DB",
                                         Toast.LENGTH_LONG).show();

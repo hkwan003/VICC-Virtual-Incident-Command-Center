@@ -18,6 +18,7 @@ import com.parse.FindCallback;
 import com.parse.Parse;
 import com.parse.ParseException;
 import com.parse.ParseFile;
+import com.parse.ParseInstallation;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseRelation;
@@ -218,6 +219,7 @@ public class RecipientsActivity extends ListActivity
                 {
                     //success
                     Toast.makeText(RecipientsActivity.this, R.string.success_message, Toast.LENGTH_LONG).show();
+                    sendPushNotifications();
                 }
                 else //error
                 {
@@ -231,5 +233,11 @@ public class RecipientsActivity extends ListActivity
                 }
             }
         });
+    }
+
+    protected void sendPushNotifications()
+    {
+        ParseQuery<ParseInstallation> query = ParseInstallation.getQuery();
+        query.whereContainedIn(ParseConstants.KEY_USER_ID, getRecipientsIds());
     }
 }

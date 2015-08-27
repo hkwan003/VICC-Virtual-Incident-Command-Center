@@ -1,17 +1,12 @@
 package com.sinch.messagingtutorial.app;
 
-import android.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.Window;
 import android.webkit.WebSettings;
@@ -46,20 +41,24 @@ public class openLayersMap extends Activity
         progressBar = ProgressDialog.show(openLayersMap.this, "WebView Example", "Loading...");
 
         webview.setWebViewClient(new WebViewClient() {
-            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            public boolean shouldOverrideUrlLoading(WebView view, String url)
+            {
                 Log.i(TAG, "Processing webview url click...");
                 view.loadUrl(url);
                 return true;
             }
 
-            public void onPageFinished(WebView view, String url) {
+            public void onPageFinished(WebView view, String url)
+            {
                 Log.i(TAG, "Finished loading URL: " + url);
-                if (progressBar.isShowing()) {
+                if (progressBar.isShowing())
+                {
                     progressBar.dismiss();
                 }
             }
 
-            public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
+            public void onReceivedError(WebView view, int errorCode, String description, String failingUrl)
+            {
                 Log.e(TAG, "Error: " + description);
                 Toast.makeText(openLayersMap.this, "Oh no! " + description, Toast.LENGTH_SHORT).show();
                 AlertDialog.Builder builder = new AlertDialog.Builder(openLayersMap.this);
