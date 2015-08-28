@@ -2,11 +2,81 @@
 <items version="2" >
 
     <item
+        jar="/Users/calvinkwan/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/pre-dexed/debug/picasso-2.5.2-e9411a412d4305960924b80294181dd8fcd0f527.jar" />
+    </item>
+    <item
         jar="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/libs/Parse-1.10.1.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
         sha1="181b435832725bec96c11ff568bdfbccdacab944">
         <dex dex="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/pre-dexed/debug/Parse-1.10.1-79543b78f592e7216369627e1782f3151ed2bb94.jar" />
+    </item>
+    <item
+        jar="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/pre-dexed/debug/classes-46aace66d460d4259aa51bcecca12a103616b94e.jar" />
+    </item>
+    <item
+        jar="/Users/calvinkwan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/pre-dexed/debug/okio-1.4.0-188268e17dccd36ef6285960ba5ecf9ad93890e0.jar" />
+    </item>
+    <item
+        jar="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/pre-dexed/debug/commons-io-2.4-11e136cce21a839b522f62052c48b04dcc86780e.jar" />
+    </item>
+    <item
+        jar="/Users/calvinkwan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-0f260c333a869fdc13a48553554d7f3223f344e2.jar" />
+    </item>
+    <item
+        jar="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/libs/sinch-android-rtc-3.3.5.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1f310eca4ddd9acbaf12173e21e557af402703fd">
+        <dex dex="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/pre-dexed/debug/sinch-android-rtc-3.3.5-fb9f6c80b5f8c62a2e6968f9bf042ebba14ca32b.jar" />
+    </item>
+    <item
+        jar="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-2a0d2ce6c3b6545c566e16cfafd774c92de88041.jar" />
+    </item>
+    <item
+        jar="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/pre-dexed/debug/classes-64387a50c323bd9ea45575c941e6cc69e68b4acb.jar" />
+    </item>
+    <item
+        jar="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/libs/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/pre-dexed/debug/okhttp-2.4.0-93a0a8e11311a3771a14d4ee7df6f8794a6c1365.jar" />
+    </item>
+    <item
+        jar="/Users/calvinkwan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.1/44780c2cf98f6a3cf4e77f1234d644758b329201/bolts-android-1.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
+        <dex dex="/Volumes/64G_Sandisk/Programming/Virtual_Incident_Command_Center/MessagingTutorial/build/intermediates/pre-dexed/debug/bolts-android-1.2.1-1646a61051f13f752fb5a8be1640b55907ae9ca1.jar" />
     </item>
 
 </items>
