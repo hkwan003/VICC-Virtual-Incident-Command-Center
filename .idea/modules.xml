@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MessagingTutorial/MessagingTutorial.iml" filepath="$PROJECT_DIR$/MessagingTutorial/MessagingTutorial.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Virtual_Incident_Command_Center.iml" filepath="$PROJECT_DIR$/Virtual_Incident_Command_Center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VICC-Virtual-Incident-Command-Center.iml" filepath="$PROJECT_DIR$/VICC-Virtual-Incident-Command-Center.iml" />
     </modules>
   </component>
 </project>
