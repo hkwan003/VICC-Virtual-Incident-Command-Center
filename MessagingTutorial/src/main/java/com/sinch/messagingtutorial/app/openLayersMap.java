@@ -69,7 +69,7 @@ public class openLayersMap extends Activity
                 dialog.show();
             }
         });
-        webview.loadUrl("http://98.102.8.66/icc/maps/openLayers3.html");
+        webview.loadUrl("http://98.102.8.66/icc/part1/index.html");
     }
 
 }
